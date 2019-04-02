@@ -1,0 +1,1143 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding-top: 84px;
+}
+
+.container-fluid {
+    background-color: #ededed;
+    overflow: hidden;
+}
+
+/* Header */
+.navbar {
+    background-color: #333333 !important;
+}
+.navbar .navbar-nav > li > a {
+    color: #ededed !important;
+}
+.navbar-brand {
+    padding-right: 22px !important;
+    border-right: 1px solid #ededed !important;
+}
+nav .navbar-text {
+    color: #ededed !important;
+    font-size: larger;
+}
+
+
+/* Footer */
+footer {
+    padding-top: 10px;
+}
+
+.page-footer {
+    background-color: #333333 !important;
+}
+
+.page-footer a {
+    color: #bdbdbd !important;
+    text-decoration: none;
+}
+
+footer i {
+    color: #646464;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-copyright {
+    background-color: #333;
+    padding: 15px;
+    color: #ededed;
+}
+
+footer hr {
+    width: 100%;
+    color: lightgray;
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+
+footer p {
+    color: #ededed;
+}
+
+footer #contact-mail-text {
+    margin-bottom: 5px;
+}
+
+footer .footer-contact {
+    margin-bottom: 15px;
+}
+
+footer .text-uppercase {
+    color: #ededed;
+}
+
+/* Connexion */
+.contenuConnexion {
+    margin: 10% 5% 10% 5%;
+}
+
+.inputConnexion {
+    width: 100%;
+    margin: 2% 0;
+    border: 0;
+    border-radius: 50px;
+    padding: 8px 15px;
+}
+
+.interaNoteConnexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoConnexion {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.buttonConnexion {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.buttonConnexion input {
+    border: 0;
+    border-radius: 50px;
+    background-color: #333;
+    color: #ededed;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 1px;
+    padding-left: 1px;
+    width: 100%;
+}
+.messageErreurConnexion {
+    margin: 3% 0;
+}
+
+.linkMdpOoublie {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+
+
+/* TicTac button */
+.tictac {
+    width:115px;
+    height:165px;
+    background-color:white;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tictacHaut {
+    width: 100%;
+    height: 65%;
+    border: 0;
+    border-radius: 27px 27px 0 0;
+
+    display: flex;
+}
+.tictacHaut img {
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+}
+.tictacBas  {
+    width: 100%;
+    background-color: #333;
+    height: 35%;
+    border-radius: 0 0 27px 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.TicTacAccueil a, .TicTacAccueil a:visited {
+    color: white !important;
+}
+
+/* Accueil élève */
+.TicTacAccueil {
+    display: flex;
+    justify-content: center;
+
+    margin: 3% 0;
+}
+
+/* Prof : ListerSujet */
+.listerSujet {
+    margin: 3% 0;
+
+}
+.listerSujet p {
+    margin: 0;
+    padding: 10px 0;
+}
+.listerSujet input {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 135px;
+    cursor: pointer;
+}
+.boutonsListerSujetProf {
+    display: flex;
+    justify-content: space-around;
+}
+#attributeTo {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.05rem;
+    margin-bottom: 2%;
+}
+.textListeSujet {
+    align-self: center;
+}
+.buttonConsulter input {
+    border: 0;
+    border-radius: 50px;
+    background-color: #333;
+    color: #ededed;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-top: 3%;
+    cursor: pointer;
+    width: 150px;
+}
+.contenuListeSujet p {
+    margin: 0;
+}
+.contenuListe {
+    margin: 3% 0;
+}
+.modifierNbEssais {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.modifierNbEssais input[type=number] {
+    border-radius: 5px;
+    border: solid #333 thin;
+    padding: 2px 10px;
+}
+.modifierNbEssais input[type=submit] {
+    background: #333;
+    border: solid #333 thin;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 10px;
+}
+.btnTestCorrection input#btn_testCorrection {
+    margin: 10px auto;
+}
+
+
+/* Page enseignant creer classe */
+.createClass {
+    margin: 5%;
+}
+.createClass input {
+    min-width: 70%;
+    border: 0;
+    border-radius: 50px;
+    padding: 8px 15px;
+}
+.createClass input[type=submit] {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 135px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+.importStudent p {
+    margin: 0;
+}
+.importStudent {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.importStudent img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.btnRetour {
+    margin: 1% 0;
+    color: white;
+    background-color: #333333;
+    padding: 7px 5px;
+    border: 0;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.inputNameClass, .inputYearClass {
+    margin-bottom: 5%;
+}
+
+.listImportStudent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table .thead-dark th {
+    border : none !important;
+    background-color: #333333 !important;
+}
+.table td , .table th{
+    padding-left: 20px !important;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    font-size: 1.15rem;
+    /* 18.4px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 0;
+    /* 10px */
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+.inputfile-3 + label {
+    color: #333333;
+}
+
+.inputfile-3:focus + label,
+.inputfile-3.has-focus + label,
+.inputfile-3 + label:hover {
+    color: #5b5b5b;
+}
+
+.affClassCreated {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.affClassCreated label {
+    font-weight: bold;
+}
+
+.affClassCreated p {
+    text-align: center;
+}
+
+.affClassCreated caption{
+    caption-side: top;
+}
+
+.affClassCreated h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* Page eleve afficherSujet */
+.mySubject {
+    margin: 5%;
+}
+.mySubject h1 {
+    margin-top: -50px;
+}
+.mySubject span {
+    font-weight: bold;
+}
+.mySubject th, .mySubject td {
+    padding: 0 15px;
+}
+#subjectTitle {
+    text-decoration: underline;
+}
+div.subjectTitle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.mesBtnSujet {
+    display: flex;
+    justify-content: center;
+}
+.mesBtnSujet input[type=button] {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 175px;
+    cursor: pointer;
+}
+.textSubject {
+    text-align: justify;
+}
+
+.headAfficherSujet {
+    margin-top: 20px;
+    margin-bottom: -23px;
+    text-align: center;
+}
+
+/* Page enseignant_creerExamen */
+.form-control {
+    color: #848484;
+    opacity: 1;
+}
+.createExam {
+    margin: 5% 0;
+}
+.createExam input[type=submit] {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 110px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#classExam , #endExam, #nameExam, #nbEssai {
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ennonceExam {
+    border-radius: 25px;
+    padding-left: 15px;
+    overflow:hidden;
+    word-wrap:break-word
+}
+.firstCheckBoxSemester {
+    margin-left: 15px;
+}
+
+.headTestCorrectionSujet {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* page eleve saisie réponse */
+.percentAnswer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.percentAnswer p {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.answerSubject {
+    margin-top: 5%;
+}
+
+.answerSubject span {
+    font-weight: bold;
+}
+
+#detailAnswer {
+    border-radius: 25px;
+    padding-left: 15px;
+    min-height: 150px;
+    overflow:hidden;
+    word-wrap:break-word
+}
+
+#puissanceResult {
+    margin: 0;
+    margin-top: 14px;
+    font-size: x-large;
+}
+
+.saisiePuissanceResult {
+    text-align: center;
+    height: 30px;
+    margin-top: -3px;
+}
+
+#resultAnswer, #uniteAnswer, #exposantAnswer {
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+#exposantAnswer {
+    margin-bottom: 3%;
+}
+
+.headerSaisie {
+    text-align: center;
+}
+
+.sendSaisie {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 135px;
+    cursor: pointer;
+}
+.messageEnvoiValide {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.helpIcon {
+    width: 35px;
+    height: 35px;
+}
+.more_info {
+    position: relative;
+    cursor: pointer;
+}
+
+.more_info .popup {
+    position: absolute;
+    top: 51px; /*must overlap parent element otherwise pop-up doesn't stay open when rolloing over '*/
+    background: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    left: -50%;
+    width: 200%;
+    z-index: 100;
+    display: none;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    opacity: 0.95;
+
+}
+
+span#text_info, p#text_info {
+    font-weight: inherit;
+    text-align: justify;
+}
+
+
+
+/* Page detail compte */
+.iconStudentDetailsCompte {
+    border: solid black 1px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-width: 35%;
+    max-height: 100%;
+    margin: 5%;
+}
+.iconStudentDetailsCompte img {
+
+}
+.imgDetailsCompte, .nameDetailsCompte {
+    display: flex;
+    justify-content: center;
+}
+.studentImg {
+    align-self: center;
+    width: 90%;
+    height: 90%;
+}
+.hr-DetailsCompte {
+    width: 80%;
+    margin: 5% 10%;
+}
+.titleDetailCompte {
+    font-weight: bold;
+    display: block;
+}
+.answerDetailCompte {
+    padding:20px;
+}
+.partDetailCompte {
+    margin-left:7%;
+    margin-bottom: 3%;
+}
+.changeMdp {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 135px;
+    cursor: pointer;
+}
+.divBoutonChangerMdp {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+/* Page élève afficher Sujet */
+.subjectPictureOne, .subjectPictureTwo {
+    margin: 3% 0;
+    height: 100%;
+}
+.boutonSaisieReponse {
+    color: white;
+    background-color: #333;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 300px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+}
+.mySubject a, .mySubject a:visited {
+    color: white !important;
+}
+
+/* Autres pages */
+.tableNotesEleve {
+    margin: 50px 20px;
+}
+.tictacHaut img#mesImagesTicTac {
+    width: 60% !important;
+}
+.boutonVoirCorrection {
+    color: white;
+    background-color: #333;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 150px;
+}
+.alertError {
+    font-weight:bold;
+    margin: 50px 50px;
+}
+
+.msgErrorTitre {
+    margin: 50px 50px;
+}
+.msgConfirmTitre {
+    margin: 50px 50px;
+}
+
+
+#phMail::placeholder {
+    color: #999;
+}
+#phMail {
+    border-color: #999;
+}
+
+/* DetailsCompte modifier mdp */
+.form-wrapper {
+    max-width: 30%;
+    min-width: 300px;
+    padding: 50px 30px 50px 30px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    border-radius: 25px;
+}
+
+.form-group {
+    position:relative;
+
+    & + .form-group {
+        margin-top: 30px;
+    }
+}
+
+.form-label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #999;
+    background-color: #fff;
+    z-index: 10;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+}
+
+.focused .form-label {
+    transform: translateY(-125%);
+    font-size: .75em;
+}
+
+.form-input {
+    position: relative;
+    padding: 12px 0px 5px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 0 0 #e5e5e5;
+    transition: box-shadow 150ms ease-out;
+
+    &:focus {
+        box-shadow: 0 2px 0 0 blue;
+    }
+}
+
+.form-input.filled {
+    box-shadow: 0 2px 0 0 #333333;
+}
+
+.detailMdpButton {
+    color: white;
+    background-color: #333333;
+    border-radius: 25px;
+    border: 0;
+    padding: 7px 5px;
+    width: 115px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.divMdpButton {
+    display:flex;
+    justify-content:center;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+.divMdpButton input[type=submit] {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 135px;
+    cursor: pointer;
+}
+
+.afficherMsgErreur {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+/* Page aff Pop-Up */
+.box, .bg-info {
+    padding: 10px;
+}
+
+/* Créer Examen question Dynamique */
+.form-container{
+    padding:0 20px;
+    margin-top:20px;
+}
+
+.add-one{
+    color:green;
+    font-weight:bolder;
+    cursor:pointer;
+}
+
+.delete{
+    color:white;
+    background-color:rgb(231, 76, 60);
+    text-align:center;
+    margin-top:6px;
+    border-radius:5px;
+    min-width:20px;
+    cursor:pointer;
+    height: 28px;
+}
+
+#singlebutton{
+    width:100%;
+    margin-top:20px;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.dynamic-element{
+    margin-bottom:5px;
+}
+
+/* Page enseignant_creerExamen */
+.headCreateExam {
+    text-align: center;
+}
+.headCreateExam h4 {
+    margin: 20px 0 0 0;
+}
+.headCreateExam span {
+    font-weight: lighter;
+}
+
+.titleQuestionCreateExam {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-weight: bold;
+}
+
+.enonceCreateExam p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.trachIconCreateExam {
+    width: 18px;
+    height: 18px;
+}
+
+.custom-control-label::before {
+    background-color: white;
+}
+
+.saisieValeursParametre {
+    margin-top: -15px;
+}
+
+.saisieValeursParametre .popUp {
+    margin-bottom: 15px;
+}
+
+.choiceParameterSaisie {
+    margin-left: 20px;
+    display: flex;
+
+}
+.choiceParameterSaisie .custom-checkbox {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.choiceParameterSaisie button {
+    background-color: #333 !important;
+    border: solid 1px #333;
+}
+.mesParametresSaisie {
+    margin: auto;
+    width: 100%;
+}
+.mesParametresSaisie .form-wrapper {
+    max-width: 50% !important;
+    min-width: 300px;
+    padding: 30px 30px 40px 30px;
+    margin: 20px auto 35px auto;
+}
+
+.choixTypesValeurs input {
+    width: 150px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #333;
+    padding: 3px 6px;
+}
+
+.choixTypesValeurs div {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.divPuissanceResult {
+    margin-bottom: 10px;
+}
+
+.divPuissanceResult span {
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+.btnValiderExamen {
+    width: 150px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 3% 0;
+}
+
+.btnSaisieValeur {
+    width: 150px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.divListeValeursTrash {
+    margin: 20px 0;
+}
+
+.myTrash {
+    border: 0;
+    background : none;
+    width: 75%;
+}
+
+.myTrash img {
+    width: 32px;
+    height: 32px;
+}
+
+.listeValeur {
+    padding: 0;
+}
+
+.selectMultiplesValeurs {
+    overflow: auto;
+}
+
+.vecteur {
+    max-width: 30px;
+    max-height: 30px;
+}
+.ajoutImageParametre label {
+    margin-bottom: 1rem;
+}
+.ajoutImageParametre select {
+    margin-left: 20px;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.sptVariableExam:last-child {
+    display: none;
+}
+
+/* Page enseignant - importer une image */
+.headGestionImage{
+    margin-top:1rem;
+    text-align: center;
+}
+.bodyGestionImage input[type=submit] {
+    border: solid #333 thin;
+    border-radius: 5px;
+    padding: 3.5px 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    min-width: 110px;
+    cursor: pointer;
+}
+.bodyGestionImage label[for=chemin] span {
+    font-size: medium;
+    font-weight: normal;
+}
+.bodyGestionImage input[type=submit] {
+    margin: 0;
+}
+
+
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+
+@media screen and (min-width: 576px) {
+    /* Page Connexion */
+    .logoConnexion {
+        width: 75%;
+        height: 75%;
+    }
+
+    /* Page prof lister sujet */
+    .buttonConsulter input {
+        margin-top: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contenuListeSujet {
+        margin: 20px 0;
+    }
+
+    /* Page détail compte */
+    .iconStudentDetailsCompte {
+        max-width: 65%;
+    }
+    .nameDetailsCompte {
+        align-self: center;
+    }
+    .headDetailCompte {
+        margin-top: 5%;
+    }
+    .changeMdp {
+        font-size: 1rem;
+    }
+
+    /* Page création compte */
+    .affCreated h4 {
+        font-size: 1.5rem;
+    }
+
+    /* Page élève saisie réponse */
+    .more_info .popup {
+        width: 300%;
+        left: -100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        margin-left: -100px;
+    }
+
+    /* page eleve saisie réponse */
+    .answerSubject {
+        margin-top: 2%;
+    }
+    #detailAnswer {
+        min-height: 100px;
+    }
+
+
+    /* Page détail compte */
+    .iconStudentDetailsCompte {
+        max-width: 45%;
+    }
+    .headDetailCompte {
+        margin-top: 2%;
+    }
+    .hr-DetailsCompte {
+        width: 80%;
+        margin: 2% 10%;
+    }
+
+    /* Page élève saisie réponse */
+    .messageEnvoiValide {
+        margin: 10%;
+    }
+
+    /* Page enseignant_creerExamen */
+    .btnSuppr {
+        margin-top: 40px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    /* Page Connexion */
+    .interaNoteConnexion h2 {
+        font-size: 2.75rem;
+    }
+    .buttonConnexion input {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    /* Tictac menu */
+    .TicTacAccueil {
+        margin: 25vh 0;
+    }
+
+    /* Page Prof Lister sujets */
+    .contenuListeSujet {
+        margin: 20px 0;
+    }
+
+    /* Page enseignant creer classe */
+    .inputNameClass, .inputYearClass {
+        margin-bottom: 2%;
+    }
+    .importStudent {
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+
+
+    /* Page enseignant_creerExamen */
+    .createExam {
+        margin: 2% 0;
+    }
+    .ajoutImageParametre select {
+        max-width: 220px;
+    }
+
+    .mesParametresSaisie .divPuissanceResult {
+        margin-top: 0;
+    }
+
+    /* page eleve saisie réponse */
+    #detailAnswer {
+        min-height: 210px;
+    }
+    .sendSaisie {
+        margin-top: 3%;
+    }
+    .divPuissanceResult {
+        margin-top: 20px;
+    }
+
+    /* Page détail compte */
+    .iconStudentDetailsCompte {
+        max-width: 25%;
+    }
+    .bodyDetailCompte {
+        margin-top: 5%;
+    }
+
+    /* Page élève saisie réponse */
+    .sendSaisie {
+        width: 20%;
+        margin: 0 40% 5% 40%;
+    }
+
+    .more_info .popup {
+        width: 500%;
+        left: -200%;
+    }
+
+}

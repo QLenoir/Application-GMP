@@ -1,0 +1,24 @@
+Selon les paramètres suivants, indiquez les quantités nécessaires d'O2, de carburant, de nourriture et d'eau pour atteindre [[planète]] :
+-nombre de moteurs : [[nbMoteur]]
+-vitesse : [[vitesse]]
+-Consommation de carburant par moteur : 100T/1000km
+-Consommation d'eau par jour par personne : 1,5L
+-Consommation de nourriture par personne par journée : 2 Kg
+-Consommation d'O² par personne par jour : 60L
+-Le nombre de personnes dans l'équipage : [[nbPersonne]]
+-Destination : [[destinationPlanete]]
+-Distance Terre/[[destinationPlanete]] : [[distanceDestination]]
+
+-qté carburant : 
+
+nbConso = [[distancedestination]] / 1000km (vient de l'unité de consommation carburant)
+
+qtéCarburant = nbConso*100*[[nbMoteur]]
+
+jours = [[destinationPlanète]]/[[vitesse]]
+
+qté O² =[[nbPersonnes]]*60*jours
+
+-qté nourriture : [[nbPersonne]]*2kg*jours
+
+-qté eau : [[nbPersonne]]*1.5*jours
