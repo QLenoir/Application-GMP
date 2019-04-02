@@ -1,5 +1,6 @@
 ﻿Application Web pour le département GMP pour la création de sujets personnalisés
 
+Collaborateurs : Charlie LEGER / Nathan LIBOUTET / Jérémy LORTHIOIR / Lara VIDONI
 
 # Pour configurer un serveur SMTP avec WAMPServeur
 
